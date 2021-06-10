@@ -1,0 +1,130 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+ul,ol{
+	list-style-type: none;
+}
+
+a,a:hover, a:focus{
+	text-decoration: none;
+}
+
+.header{
+	padding: 30px 0px;
+} 
+
+#banner{
+	background: url(../img/banner.jpg);
+	padding: 200px 0px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#banner .container h1{
+	font-size: 120px;
+	color: white;
+	text-align: center;
+}
+
+#banner .container hr{
+	border-bottom: 2px solid #D35400;
+	width: 600px;
+	margin: 0px auto;
+}
+
+#banner .container h3{
+	font-size: 20px;
+	color: black;
+	padding-top: 30px;
+	padding-bottom: 60px;
+	text-align: center;
+}
+
+.content{
+	padding-top: 80px;
+	text-align: center;
+}
+
+.content .container h3{
+	font-size: 40px;
+	padding-bottom: 30px;
+}
+
+.content .container p{
+	font-size: 20px;
+	padding-bottom: 150px;
+}
+
+.content .container .row .col-lg-4 h4{
+	font-size: 22px;
+}
+.content .container .row .col-lg-4 p{
+	font-size: 15px;
+}
+
+.content .container .row .col-lg-4 img{
+	padding: 30px;
+}
+.gallery .container .row .col-lg-4{
+	margin-bottom: 25px;
+	position: relative;
+}
+
+.gallery .container .row .col-lg-4 img{
+	position: relative;
+}
+
+.gallery .container .row .col-lg-4:hover .img-bg{
+	display: block;
+}
+
+.gallery .container .row .col-lg-4 .img-bg{
+	height: 100%;
+	width: 82%;
+	background-color: #3399ff;
+	position: absolute;
+	top: 0px;
+	text-align: center;
+	opacity: .8;
+	display: none;
+}
+
+.gallery .container .row .col-lg-4 i{
+	margin-top: 35%;
+	margin-right: 8px;
+	padding: 14px;
+	border: 2px solid white;
+	border-radius: 7px;
+	color: white;
+}
+
+.contact-form{
+	background: url(../img/contact.jpg);
+	padding: 100px 0px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-align: center;
+	color: white;
+}
+
+.contact-form .container .row .col-lg-6 input{
+	background: none;
+}
+.contact-form .container .row .col-lg-6 input[type=checkbox]{
+	background: white;
+}
+.contact-form .container .row .col-lg-6 textarea{
+	background: none;
+}
+
+.copyright .container ul li{
+	float: left;
+	margin: 5px;
+}
+.copyright .container ul li a{
+     padding: 10px;
+     font-size: 20px;
+     border: 2px solid #5D6D7E;
+}
+
